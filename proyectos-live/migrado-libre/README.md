@@ -12,17 +12,20 @@ Su hijo Ángel, que es programador, le ha dicho que Mercado Libre tiene una API 
 
 ## Requerimientos
 
-- [x] Al entrar a la ruta `/` deberíamos ver un listado de todos los productos de Miguel en forma de grilla.
-- [x] Al entrar a la ruta `/[category_id]` deberíamos ver un listado de productos correspondientes a esa categoría.
-- [ ] En todas las rutas, deberíamos ver un menú a la izquierda con las categorías disponibles. Las categorías deberían mostrarse en forma de árbol, es decir, si una categoría tiene subcategorías, deberían mostrarse como un submenú.
-- [ ] Las categorías deberían iniciar contraídas, y al hacer click un botón de `-` o `+` deberían expandirse o contraerse individualmente.
-- [ ] Las categorías deberían mantener su estado de expansión/contracción al navegar entre rutas.
-- [ ] Al clickear una categoría, deberíamos navegar a la ruta `/[category_id]` correspondiente.
-- [ ] Al clickear un producto debería redirigirnos a la web de Mercado Libre para ese producto.
+-   [x] Al entrar a la ruta `/` deberíamos ver un listado de todos los productos de Miguel en forma de grilla.
+-   [x] Al entrar a la ruta `/[category_id]` deberíamos ver un listado de productos correspondientes a esa categoría.
+-   [x] En todas las rutas, deberíamos ver un menú a la izquierda con las categorías disponibles. Las categorías deberían mostrarse en forma de árbol, es decir, si una categoría tiene subcategorías, deberían mostrarse como un submenú.
+-   [x] Las categorías deberían iniciar contraídas, y al hacer click un botón de `-` o `+` deberían expandirse o contraerse individualmente.
+-   [x] Las categorías deberían mantener su estado de expansión/contracción al navegar entre rutas.
+-   [x] Al clickear una categoría, deberíamos navegar a la ruta `/[category_id]` correspondiente.
+-   [ ] Al clickear un producto debería redirigirnos a la web de Mercado Libre para ese producto.
 
 ## Ejemplo
+
 [![Ejemplo](./assets/mock.png)](./assets/mock.png)
+
 > Nota: El diseño es libre, pero debería ser responsive. Dado el tiempo disponible para el ejercicio, no es necesario que sea muy complejo.
 
 ## Disclaimer
+
 Esta es una prueba que le tomamos a [Midudev](https://twitter.com/midudev) [en vivo](https://youtu.be/nFJ3Q1YW49M). Esta prueba está en el límite entre un proyecto live y un proyecto take home. Así que si no lo podés resolver en un par de horas, no te preocupes, es normal 🙂
